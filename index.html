@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="./weather-app-image.jpg"/>
+    <link rel="shortcut icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./style.css">
+    <title>Weather App with Vanilla JavaScript | The Designer Developer</title>
+    <meta name="description" content="Amazing app that tells you the weather depending on your location. Simply allow your browser to know your location.">
+</head>
+<body>
+    
+    <div class="location">
+        <h1 class="location-timezone">Please allow browser to know your location.</h1>
+        <canvas class="icon" width="128" height="128"></canvas>
+    </div>
+    <div class="temperature">
+        <div class="degree-section">
+        <h2 class="temperature-degree">Loading...</h2>
+        <span>F</span>
+    </div>
+        <div class="temperature-description">Please Wait While Browser is Loading</div>
+    </div>
+    <div class="copyright" style="text-align:center;font-style:italic;font-size:.5rem;">Please don't copy any of the copy, images or <a href="https://thedesignerdeveloper.com" target="_blank" style="color:white;">web developer</a>'s work.<br>API is <a href="https://darksky.net/poweredby/" target="_blank" style="color:white;">Powered by Dark Sky</a></div>
+
+    <script src="app.js"></script>
+    <script src="skycons.js"></script>
+</body>
+</html>
